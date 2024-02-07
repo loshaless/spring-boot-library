@@ -2,6 +2,12 @@
 Please run the migration.sql first from src/main/sql/migration.sql
 Make sure that the data run on localhost:3306
 
+Make sure to change change the password in src/main/resources/application.properties
+```azure
+spring.datasource.username=root
+spring.datasource.password=root
+```
+
 # Description
 this is the mini project of book lover.  
 In this project maybe you wonder why there is no controller. 
